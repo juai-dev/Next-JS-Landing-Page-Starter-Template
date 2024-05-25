@@ -12,7 +12,7 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/">Contact</Link>
+          <Link href="mailto:contact@juai.dev">Contact</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -27,11 +27,7 @@ const Hero = () => (
           </>
         }
         description="Stay tunned for our latest apps"
-        button={
-          <Link href="#Banner">
-            <Button xl>Sign up for updates</Button>
-          </Link>
-        }
+        button={<Button xl>Coming soon...</Button>}
       />
     </Section>
   </Background>

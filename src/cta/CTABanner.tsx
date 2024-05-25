@@ -9,7 +9,7 @@ const CTABanner = (props: ICTABannerProps) => (
       <div className="text-2xl font-semibold">
         <div className="text-gray-900">{props.title}</div>
         <div className="text-primary-500">{props.subtitle}</div>
-        <div className="my-8 flex w-full flex-col">
+        <div className="my-12 flex w-full flex-col">
           <label className="font-bold text-gray-800" htmlFor="email">
             Email
           </label>
@@ -26,7 +26,10 @@ const CTABanner = (props: ICTABannerProps) => (
       </div>
 
       <div className="whitespace-no-wrap mt-3 sm:ml-2 sm:mt-0">
-        <button type="submit" className="">
+        <button
+          type="submit"
+          className="bg-primary-500 px-4 py-2 text-lg  font-semibold text-white"
+        >
           Sign up for updates
         </button>
       </div>
