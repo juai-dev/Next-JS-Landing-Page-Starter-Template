@@ -2,7 +2,10 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} {AppConfig.title}.
+    <a href="mailto:contact@juai.dev">Email us</a>
+    <br></br>
+    <br></br> Sheridan, WY © Copyright {new Date().getFullYear()}{' '}
+    {AppConfig.title} LLC.
     <style jsx>
       {`
         .footer-copyright :global(a) {
